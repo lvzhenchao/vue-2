@@ -18,7 +18,7 @@
                         <ul class="list-group">
                             <li class="list-group-item " v-for="(todo,index) in todos">
                                 {{todo.title}}
-                                <button class="btn btn-waring btn-sm pull-right" v-on:click="deleteTodo(index)">Delete</button>
+                                <button class="btn btn-waring btn-xs pull-right" v-on:click="deleteTodo(index)">Delete</button>
                             </li>
                         </ul>
                         <form v-on:submit.prevent="addTodo(newTodo)">
