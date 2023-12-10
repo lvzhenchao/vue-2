@@ -9,4 +9,4 @@
 
 # 2、computed和v-bind:class的应用场景
 - computed对于代码逻辑和业务逻辑的处理非常有用；【其实就是个方法，写在computed里面】
-- v-bind:class则是应用页面的样式和渲染方面，使web应用更具体验性
+- v-bind:class则是应用页面的样式和渲染方面，使web应用更具体验性;【做一些样式判断的添加,两种写法】
