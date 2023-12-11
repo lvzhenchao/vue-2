@@ -19,5 +19,5 @@
 - 如何定义data：组件内书写方式 data(){return{具体内容}}
 
 # 4、vue脚手架工具进行组件化开发
-- vue-cli安装：npm install -g vue-cli [https://zhuanlan.zhihu.com/p/666412575]
+- vue-cli安装：npm install -g vue-cli [参考：https://zhuanlan.zhihu.com/p/666412575]
 - vue init 《template-name》《project-name》
