@@ -1,17 +1,38 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld/>
+<!--    <HelloWorld/>-->
+    <todos :todos="todos"></todos>
+    <todo-form :todos="todos"></todo-form>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
+import Todos from "./components/Todos.vue";
+import TodoForm from "./components/TodoForm.vue";
 
 export default {
   name: 'App',
+  data(){//这个app是个组件，所以需要定义成函数的形式
+    return {
+      todos:[
+        {id:1, title:'Learn Vuejs',completed:false}
+      ]
+    }
+    // newTodo:{
+    //     id:null,
+    //     title:'',
+    //     completed:false
+    // },
+  },
+  computed:{
+    todosCount(){
+      return this.todos.length;
+    }
+  },
   components: {
-    HelloWorld
+    HelloWorld,Todos,TodoForm
   }
 }
 </script>

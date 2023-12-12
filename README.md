@@ -23,3 +23,4 @@
 - vue init 《template-name》《project-name》
 - vue init webpack【构建工具】 my-project : vue init webpack vuejs-2.0-cli
 - 打完包后，在包里面执行 npm install / npm run dev
+- 编写组件
