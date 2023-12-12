@@ -21,3 +21,5 @@
 # 4、vue脚手架工具进行组件化开发
 - vue-cli安装：npm install -g vue-cli [参考：https://zhuanlan.zhihu.com/p/666412575]
 - vue init 《template-name》《project-name》
+- vue init webpack【构建工具】 my-project : vue init webpack vuejs-2.0-cli
+- 打完包后，在包里面执行 npm install / npm run dev
