@@ -24,3 +24,26 @@
 - vue init webpack【构建工具】 my-project : vue init webpack vuejs-2.0-cli
 - 打完包后，在包里面执行 npm install / npm run dev
 - 编写组件
+
+# 5、vue和laralve前后端分离
+- 之前官方推荐vue-resource
+- 作者推荐使用： npm install axios
+- 只在vue中使用的话：npm install --save axios vue-axios
+- 在main.js中分别引入：import axios from "axios"; import VueAxios from "vue-axios";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

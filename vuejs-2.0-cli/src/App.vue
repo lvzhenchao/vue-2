@@ -26,6 +26,11 @@ export default {
     //     completed:false
     // },
   },
+  mounted() {
+    this.axios.get().then(
+
+    );
+  },
   computed:{
     todosCount(){
       return this.todos.length;
