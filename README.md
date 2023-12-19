@@ -36,7 +36,9 @@
 - composer require barryvdh/laravel-cors
 
 # 7、vue-router处理前端路由，构建基础的单页应用
-- 
+- npm install vue-router  注意版本兼容问题
+- import VueRouter from 'vue-router' 引入
+- Vue.use(VueRouter)
 
 
 
