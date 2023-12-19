@@ -32,6 +32,8 @@
 - 在main.js中分别引入：import axios from "axios"; import VueAxios from "vue-axios";
 - this.axios.get(api).then(response=>{})
 
+# 6、跨域扩展包
+- composer require barryvdh/laravel-cors
 
 
 
