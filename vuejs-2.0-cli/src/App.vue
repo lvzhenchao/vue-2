@@ -31,6 +31,7 @@ export default {
   // mounted() {
   //   axios.get('http://vue2.test/api/todos').then(
   //     response => {
+  //       this.todos = response.data;
   //       console.log(response.data);
   //     }
   //   );
