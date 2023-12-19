@@ -5,7 +5,7 @@ import Vue from 'vue'
 // import VueAxios from "vue-axios";
 import App from './App'
 
-// Vue.use(axios);
+// Vue.use(VueAxios,axios);
 
 Vue.config.productionTip = false
 
