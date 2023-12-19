@@ -35,7 +35,8 @@
 # 6、跨域扩展包
 - composer require barryvdh/laravel-cors
 
-
+# 7、vue-router处理前端路由，构建基础的单页应用
+- 
 
 
 
