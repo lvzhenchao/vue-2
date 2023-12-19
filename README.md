@@ -30,6 +30,7 @@
 - 作者推荐使用： npm install axios
 - 只在vue中使用的话：npm install --save axios vue-axios
 - 在main.js中分别引入：import axios from "axios"; import VueAxios from "vue-axios";
+- this.axios.get(api).then(response=>{})
 
 
 

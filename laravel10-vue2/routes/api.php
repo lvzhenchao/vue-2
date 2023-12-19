@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Http\Response;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -14,6 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+//Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+//    return $request->user();
+//});
+
+Route::get('todos', function () {
+    return response()->json([
+        ['id'=>1, 'title'=>'Learn Vue js', 'completed' => false],
+        ['id'=>2, 'title'=>'Go to Shop', 'completed' => false],
+    ]);
+})->middleware('api');

@@ -11,6 +11,7 @@
 import HelloWorld from './components/HelloWorld'
 import Todos from "./components/Todos.vue";
 import TodoForm from "./components/TodoForm.vue";
+import axios from "axios";
 
 export default {
   name: 'App',
@@ -26,11 +27,14 @@ export default {
     //     completed:false
     // },
   },
-  mounted() {
-    this.axios.get().then(
 
-    );
-  },
+  // mounted() {
+  //   this.axios.get('http://vue2.test/api/todos').then(
+  //     response => {
+  //       console.log(response.data);
+  //     }
+  //   );
+  // },
   computed:{
     todosCount(){
       return this.todos.length;
