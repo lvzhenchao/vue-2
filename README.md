@@ -40,6 +40,9 @@
 - import VueRouter from 'vue-router' 引入
 - Vue.use(VueRouter)
 
+# 8、vuex：通过一种 state 管理机制来实现数据传递和实时更新，非常便捷和实用
+- 
+
 
 
 
